@@ -1,5 +1,6 @@
 * {
     font-family: helvetica, trebuchet, sans-serif;
+    box-sizing: border-box;
 }
     
 img.user_avatar {
@@ -8,3 +9,30 @@ img.user_avatar {
     object-fit: cover;
     border-radius: 50%;
 }
+
+ul{
+    list-style-type: none;
+    margin: 1rem;
+    padding: 0;
+}
+
+.username_link{
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+li a{
+    display: flex;
+    align-items: center;
+    
+}
+
+strong{
+    padding: .75rem;
+} 
